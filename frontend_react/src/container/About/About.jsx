@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import {motion} from 'framer-motion'
 import './About.scss'
-import { images } from '../../assets'
 import { urlFor, client } from '../../client'
+import { AppWrap } from '../../wrapper'
 
 // const abouts = [
 //   {title: "Web Design", description: "Figma UML",imageUrl: images.about01},
@@ -54,4 +54,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap(About, 'about');
