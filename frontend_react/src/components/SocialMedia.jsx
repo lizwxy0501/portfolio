@@ -16,7 +16,7 @@ const SocialMedia = () => {
         </a>
           </div>
         <div>
-        <a href= 'to-do' target="_blank" rel="noreferrer"><FaPortrait/></a>
+        <a href= 'https://liz-dev.netlify.app/' target="_blank" rel="noreferrer"><FaPortrait/></a>
           </div>
     </div>
   )
