@@ -1,5 +1,5 @@
 import email from '../assets/email.png';
-import mobile from '../assets/mobile.png';
+import mobile from '../assets/phone.jpeg';
 import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
@@ -25,7 +25,7 @@ import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile03.png';
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo03.png';
+import logo from '../assets/logo01.png';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';

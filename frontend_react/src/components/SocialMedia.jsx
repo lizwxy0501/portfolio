@@ -6,9 +6,18 @@ const SocialMedia = () => {
     <div className='app__social'>
         {/* <div><BiLogoGithub/></div>
         <div><BiLogoLinkedinSquare/></div> */}
-        <div><FaLinkedin/></div>
-        <div><FaGithub/></div>
-        <div><FaPortrait/></div>
+        <div
+        >
+        <a href= 'https://www.linkedin.com/in/liz-wu-gmail/' target="_blank" rel="noreferrer"><FaLinkedin/></a>
+        </div>
+        <div>
+        <a href= 'https://github.com/lizwxy0501' target="_blank" rel="noreferrer">
+        <FaGithub/>
+        </a>
+          </div>
+        <div>
+        <a href= 'to-do' target="_blank" rel="noreferrer"><FaPortrait/></a>
+          </div>
     </div>
   )
 }
