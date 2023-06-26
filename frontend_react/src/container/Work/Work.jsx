@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Work.scss'
 import {AiFillEye, AiFillGithub} from 'react-icons/ai'
 import { motion } from 'framer-motion'
-import { AppWrap } from '../../wrapper'
+import { AppWrap, MotionWrap } from '../../wrapper'
 import { urlFor, client } from '../../client'
 
 
@@ -41,7 +41,7 @@ const Work = () => {
   return (
     <>
         <h2 className='head-text'>
-        My <span>Creative</span> <br /><span>Protfolio </span>Section
+        My <span>Creative</span> <br /><span>Portfolio </span>Section
         </h2> 
 
         <div className='app__work-filter'>
@@ -114,4 +114,9 @@ const Work = () => {
   )
 }
 
-export default AppWrap(Work, 'work')
+
+
+export default AppWrap(
+  MotionWrap(Work, 'app__works'),
+   'work',
+   'app__primarybg');

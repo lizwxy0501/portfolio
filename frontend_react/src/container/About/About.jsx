@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {motion} from 'framer-motion'
 import './About.scss'
 import { urlFor, client } from '../../client'
-import { AppWrap } from '../../wrapper'
+import { AppWrap, MotionWrap } from '../../wrapper'
 
 // const abouts = [
 //   {title: "Web Design", description: "Figma UML",imageUrl: images.about01},
@@ -54,4 +54,7 @@ const About = () => {
   )
 }
 
-export default AppWrap(About, 'about');
+export default AppWrap(
+ MotionWrap(About, 'app__about'),
+  'about',
+  'app__whitebg');
